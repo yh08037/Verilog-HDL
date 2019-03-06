@@ -1,1 +1,1 @@
-# 논리회로 실습 Verilog HDL
+# 논리회로 이론 및 설계 Verilog HDL
