@@ -1,0 +1,15 @@
+D:/dohun/and2/and2_tb.v {1 {vlog -work work D:/dohun/and2/and2_tb.v
+Model Technology ModelSim SE vlog 5.7g Compiler 2003.10 Oct 10 2003
+-- Compiling module and2_tb
+
+Top level modules:
+	and2_tb
+
+} {} {}} D:/dohun/and2/and2.v {1 {vlog -work work D:/dohun/and2/and2.v
+Model Technology ModelSim SE vlog 5.7g Compiler 2003.10 Oct 10 2003
+-- Compiling module and2
+
+Top level modules:
+	and2
+
+} {} {}}
