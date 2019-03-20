@@ -8,3 +8,12 @@ and2 만들기
 
 
 
+### ModelSim
+
+1. 소스코드 (RTL)
+2. 기능적 검증 (test bench)
+
+### Quartus II
+
+3. 논리 합성 ( <= 사용할 반도체 )
+4. H/W 검증 <= Entry II
