@@ -308,7 +308,7 @@ module T_FF(q, clk, reset);
     input clk, reset;
     wire d;
     
-    D_FF dff0*q, d, clk ,reset);
+    D_FF dff0(q, d, clk ,reset);
     not n1(d, q);
     
 endmodule
@@ -405,6 +405,7 @@ endmodule
 
 
 
+<<<<<<< HEAD
 ### 3.2 데이터 형 (중요!)
 
 1) 논리값 집합 : 4개의 논리값(표 3-1)과 8개의 신호강도(표 3-2)를 지원
@@ -586,3 +587,6 @@ reg [0:40] virtual_addr;
 
 
 
+=======
+### 3.2 
+>>>>>>> 34c370c3eef2166022dabd4ee7a6a8ed8e69177b
