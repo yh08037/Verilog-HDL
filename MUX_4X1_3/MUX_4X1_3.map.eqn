@@ -1,0 +1,54 @@
+--A1L1 is always0~140
+--operation mode is normal
+
+A1L1 = s1 & s0 # !s1 & s0 & i1 # !s0 & i0;
+
+
+--A1L2 is always0~141
+--operation mode is normal
+
+A1L2 = s1 & A1L1 & i3 # !A1L1 & i2 # !s1 & A1L1;
+
+
+--i2 is i2
+--operation mode is input
+
+i2 = INPUT();
+
+
+--s1 is s1
+--operation mode is input
+
+s1 = INPUT();
+
+
+--i1 is i1
+--operation mode is input
+
+i1 = INPUT();
+
+
+--s0 is s0
+--operation mode is input
+
+s0 = INPUT();
+
+
+--i0 is i0
+--operation mode is input
+
+i0 = INPUT();
+
+
+--i3 is i3
+--operation mode is input
+
+i3 = INPUT();
+
+
+--out is out
+--operation mode is output
+
+out = OUTPUT(A1L2);
+
+

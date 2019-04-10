@@ -1,0 +1,16 @@
+|MUX_4X1
+out <= comb~0.DB_MAX_OUTPUT_PORT_TYPE
+i0 => y0.IN0
+i1 => y1.IN2
+i2 => y2.IN2
+i3 => y3.IN2
+s1 => y2.IN0
+s1 => y3.IN0
+s1 => y0.IN1
+s1 => y1.IN0
+s0 => y1.IN1
+s0 => y3.IN1
+s0 => y0.IN2
+s0 => y2.IN1
+
+

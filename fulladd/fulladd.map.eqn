@@ -1,0 +1,42 @@
+--A1L5 is comb~0
+--operation mode is normal
+
+A1L5 = c_in $ a $ b;
+
+
+--A1L6 is comb~1
+--operation mode is normal
+
+A1L6 = c_in & a # b # !c_in & a & b;
+
+
+--c_in is c_in
+--operation mode is input
+
+c_in = INPUT();
+
+
+--a is a
+--operation mode is input
+
+a = INPUT();
+
+
+--b is b
+--operation mode is input
+
+b = INPUT();
+
+
+--sum is sum
+--operation mode is output
+
+sum = OUTPUT(A1L5);
+
+
+--c_out is c_out
+--operation mode is output
+
+c_out = OUTPUT(A1L6);
+
+

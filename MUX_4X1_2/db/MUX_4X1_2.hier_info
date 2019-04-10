@@ -1,0 +1,16 @@
+|MUX_4X1_2
+out <= out~10.DB_MAX_OUTPUT_PORT_TYPE
+i0 => out~0.IN0
+i1 => out~2.IN1
+i2 => out~5.IN1
+i3 => out~8.IN1
+s1 => out~5.IN0
+s1 => out~8.IN0
+s1 => out~2.IN0
+s1 => out~0.IN1
+s0 => out~3.IN0
+s0 => out~9.IN0
+s0 => out~6.IN0
+s0 => out~1.IN1
+
+

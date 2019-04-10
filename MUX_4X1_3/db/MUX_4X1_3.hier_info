@@ -1,0 +1,16 @@
+|MUX_4X1_3
+out <= out$latch.DB_MAX_OUTPUT_PORT_TYPE
+i0 => always0~8.DATAB
+i1 => always0~6.DATAB
+i2 => always0~4.DATAB
+i3 => always0~4.DATAA
+s1 => always0~2.IN0
+s1 => always0~3.IN0
+s1 => always0~1.IN0
+s1 => always0~0.IN0
+s0 => always0~1.IN1
+s0 => always0~3.IN1
+s0 => always0~2.IN1
+s0 => always0~0.IN1
+
+

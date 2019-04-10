@@ -1,0 +1,55 @@
+--A1L6 is out~48 at LC_X7_Y30_N2
+--operation mode is normal
+
+A1L6 = s1 & s0 # i2 # !s1 & i0 & !s0;
+
+
+--A1L7 is out~49 at LC_X7_Y30_N4
+--operation mode is normal
+
+A1L7 = s0 & A1L6 & i3 # !A1L6 & i1 # !s0 & A1L6;
+
+
+--i1 is i1 at PIN_A17
+--operation mode is input
+
+i1 = INPUT();
+
+
+--s0 is s0 at PIN_F16
+--operation mode is input
+
+s0 = INPUT();
+
+
+--i2 is i2 at PIN_F17
+--operation mode is input
+
+i2 = INPUT();
+
+
+--s1 is s1 at PIN_B17
+--operation mode is input
+
+s1 = INPUT();
+
+
+--i0 is i0 at PIN_C17
+--operation mode is input
+
+i0 = INPUT();
+
+
+--i3 is i3 at PIN_E17
+--operation mode is input
+
+i3 = INPUT();
+
+
+--out is out at PIN_E18
+--operation mode is output
+
+out = OUTPUT(A1L7);
+
+
+

@@ -1,0 +1,43 @@
+--A1L5 is comb~0 at LC_X1_Y1_N4
+--operation mode is normal
+
+A1L5 = b $ (c_in $ a);
+
+
+--A1L6 is comb~1 at LC_X1_Y1_N7
+--operation mode is normal
+
+A1L6 = b & c_in # a # !b & c_in & a;
+
+
+--c_in is c_in at PIN_Y20
+--operation mode is input
+
+c_in = INPUT();
+
+
+--a is a at PIN_W19
+--operation mode is input
+
+a = INPUT();
+
+
+--b is b at PIN_Y21
+--operation mode is input
+
+b = INPUT();
+
+
+--sum is sum at PIN_AA21
+--operation mode is output
+
+sum = OUTPUT(A1L5);
+
+
+--c_out is c_out at PIN_U20
+--operation mode is output
+
+c_out = OUTPUT(A1L6);
+
+
+

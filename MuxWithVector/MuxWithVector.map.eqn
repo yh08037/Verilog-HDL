@@ -1,0 +1,54 @@
+--A1L1 is comb~5
+--operation mode is normal
+
+A1L1 = sel[1] & sel[0] # !sel[1] & sel[0] & i1 # !sel[0] & i0;
+
+
+--A1L2 is comb~6
+--operation mode is normal
+
+A1L2 = sel[1] & A1L1 & i3 # !A1L1 & i2 # !sel[1] & A1L1;
+
+
+--i2 is i2
+--operation mode is input
+
+i2 = INPUT();
+
+
+--sel[1] is sel[1]
+--operation mode is input
+
+sel[1] = INPUT();
+
+
+--i1 is i1
+--operation mode is input
+
+i1 = INPUT();
+
+
+--sel[0] is sel[0]
+--operation mode is input
+
+sel[0] = INPUT();
+
+
+--i0 is i0
+--operation mode is input
+
+i0 = INPUT();
+
+
+--i3 is i3
+--operation mode is input
+
+i3 = INPUT();
+
+
+--out is out
+--operation mode is output
+
+out = OUTPUT(A1L2);
+
+
